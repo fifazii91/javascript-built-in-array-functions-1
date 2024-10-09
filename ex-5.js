@@ -10,7 +10,7 @@ function getAverageStudentScore(students) {
   return (
     students
       .map((student) => student.score)
-      .reduce((sum, score) => (sum += score), 0) / students.length
+      .reduce((sum, score) => (sum + score), 0) / students.length
   );
 }
 
