@@ -13,6 +13,7 @@ function getCompletedTodo(todos) {
 
 console.log(getCompletedTodo(todos));
 
+
 /* 
 	Output:
 	[
