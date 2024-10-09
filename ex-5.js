@@ -15,3 +15,4 @@ function getAverageStudentScore(students) {
 }
 
 console.log(getAverageStudentScore(students)); // Output: 87.5
+
